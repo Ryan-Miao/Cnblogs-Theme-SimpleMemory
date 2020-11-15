@@ -10,7 +10,7 @@ https://www.dbnuo.com/Cnblogs-Theme-SimpleMemory/docs/v1.1/#/Docs/Customization/
 ```
 <script type="text/javascript">
     window.cnblogsConfig = {
-        GhVersions    : "v1.3.3", // 版本
+        GhVersions    : "d2d86a863c9e9c8fad1fda398f05d5dd5c2fdf9f", // 版本
         blogUser      : "Ryan Miao", // 用户名
         blogAvatar    : "https://pic.cnblogs.com/avatar/686418/20171018133750.png", // 用户头像
         blogStartDate : "2014-10-28", // 入园时间，年-月-日。入园时间查看方法：鼠标停留园龄时间上，会显示入园时间
