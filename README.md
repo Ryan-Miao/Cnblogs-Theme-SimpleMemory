@@ -1,59 +1,60 @@
-<div align="center">
+博客园主题皮肤
+============
 
-<img src="./img/simple1.png" />
+## 配置
 
-<br>
+https://www.dbnuo.com/Cnblogs-Theme-SimpleMemory/docs/v1.1/#/Docs/Customization/config?id=%e7%a4%ba%e4%be%8b
 
-</div>
 
-[![GitHub release](https://img.shields.io/github/release/BNDong/Cnblogs-Theme-SimpleMemory.svg)](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory/releases)
-[![GitHub stars](https://img.shields.io/github/stars/BNDong/Cnblogs-Theme-SimpleMemory.svg)](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/BNDong/Cnblogs-Theme-SimpleMemory.svg)](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory/network)
-[![GitHub issues](https://img.shields.io/github/issues/BNDong/Cnblogs-Theme-SimpleMemory.svg)](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory/issues)
-[![GitHub contributors](https://img.shields.io/github/contributors/BNDong/Cnblogs-Theme-SimpleMemory.svg)](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory/graphs/contributors)
-[![](https://data.jsdelivr.com/v1/package/gh/BNDong/Cnblogs-Theme-SimpleMemory/badge?style=rounded)](https://www.jsdelivr.com/package/gh/BNDong/Cnblogs-Theme-SimpleMemory)
-
-[![GitHub last commit](https://img.shields.io/github/last-commit/BNDong/Cnblogs-Theme-SimpleMemory.svg)](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory/commits/master)
-[![GitHub license](https://img.shields.io/github/license/esofar/cnblogs-theme-silence.svg)](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory/blob/master/LICENSE)
-[![compatibility](https://camo.githubusercontent.com/31ac3f0ce805dc34a29b615131caa26cbf4dc127/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f62726f777365722d2532306368726f6d6525323025374325323066697265666f782532302537432532306f706572612532302537432532307361666172692532302537432532306965253230253345253344253230392d6c69676874677265792e737667)](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory)
-
-# Silence
-
-📖 本主题以阅读为核心，美化博客园的显示效果，提高用户体验。 
-
-🍰 基于博皮“SimpleMemory”进行的修改；[页面效果](https://www.cnblogs.com/bndong/)
-
-🧀 支持响应，尺寸分别为：(1200px,∞px)，(960px,1200px]，(720px,960px]，(0px,720px]
-
-# Docs
-
-- v1.\*.*版本：[永久地址](https://bndong.github.io/Cnblogs-Theme-SimpleMemory/v1.1)　[备用地址](https://www.dbnuo.com/Cnblogs-Theme-SimpleMemory/docs/v1.1/)
-- v1.0.*版本：[永久地址](https://bndong.github.io/Cnblogs-Theme-SimpleMemory/v1.0)　[备用地址](https://www.dbnuo.com/Cnblogs-Theme-SimpleMemory/docs/v1.0/)
-
-> 推荐大家使用最新版本，新版本的发布往往代表着功能的完善和bug的修复！
-> <br>文档的源文件在 /docs 目录，大家有更完善的文档或建议可以 Pull Request 或 Issues 给我。
-> <br>文档我已经禁止浏览器缓存，但仍可能存在缓存，大家可以尝试强制刷新下(ctrl+f5 / command+shift+r)
-
-# Contributors
-
-<a href="https://github.com/QQ2017" target="_blank">
-    <img width=50 src="https://avatars0.githubusercontent.com/u/23667705?s=50&v=4"/>
-</a>
-
-<a href="https://github.com/alessandrocyc" target="_blank">
-    <img width=50 src="https://avatars1.githubusercontent.com/u/43987494?s=50&v=4"/>
-</a>
-
-<a href="https://github.com/ElderJames" target="_blank">
-    <img width=50 src="https://avatars3.githubusercontent.com/u/7550366?s=50&v=4"/>
-</a>
-
-<a href="https://github.com/sky5454" target="_blank">
-    <img width=50 src="https://avatars2.githubusercontent.com/u/12370628?s=460&v=4"/>
-</a>
-
-# Author
-
-**Cnblogs-Theme-SimpleMemory** © [BNDong](https://github.com/BNDong), Released under the [MIT](./LICENSE) License.<br>
-
-> Blog [@Blog](https://www.cnblogs.com/bndong/) · GitHub [@GitHub](https://github.com/BNDong) · Email dbnuo@foxmail.com
+页首代码:
+```
+<script type="text/javascript">
+    window.cnblogsConfig = {
+        GhVersions    : "v1.3.3", // 版本
+        blogUser      : "Ryan Miao", // 用户名
+        blogAvatar    : "https://pic.cnblogs.com/avatar/686418/20171018133750.png", // 用户头像
+        blogStartDate : "2014-10-28", // 入园时间，年-月-日。入园时间查看方法：鼠标停留园龄时间上，会显示入园时间
+        GhUserName    : "Ryan-Miao",
+        GhRepositories: "Cnblogs-Theme-SimpleMemory",
+        homeTopImg    : [
+            "https://img2020.cnblogs.com/blog/686418/202011/686418-20201114214124737-1332207510.jpg",
+            "https://img2020.cnblogs.com/blog/686418/202011/686418-20201114214851476-1666201764.png",
+            "https://img2020.cnblogs.com/blog/686418/202011/686418-20201114214930503-1799431660.png"
+        ],
+        essayTopImg: [
+            "https://img2020.cnblogs.com/blog/686418/202011/686418-20201114214124737-1332207510.jpg",
+                "https://img2020.cnblogs.com/blog/686418/202011/686418-20201114214851476-1666201764.png",
+                "https://img2020.cnblogs.com/blog/686418/202011/686418-20201114214930503-1799431660.png"
+        ],
+        fontIconExtend: "//at.alicdn.com/t/font_2204177_honuy9aiklh.css",
+        menuNavList: [ // 列表数据 ["导航名称", "链接", "icon"]
+            ["github", "https://github.com/Ryan-Miao", "icon-GitHub"],
+            ["微信", "https://img2020.cnblogs.com/blog/686418/202011/686418-20201114231420286-1381172159.jpg", "icon-weixin"],
+            ["我的博客", "https://blog.rmiao.top/", "icon-blogger"],
+            ["公众号", "https://images2018.cnblogs.com/blog/686418/201808/686418-20180822091328437-1109977663.jpg", "icon-gongzhonghao"],
+        ],
+        menuCustomList: {
+            "链接": { // 标题
+                "data": [ // 列表数据 ["列表", "链接"]
+                    ["微信公众号markdown编辑器", "https://md.rmiao.top/"],
+                    ["sql格式化", "https://ryan-miao.github.io/sql-format-with-highlight/index.html"],
+                    ["geohash可视化", "	https://ryan-miao.gitee.io/geohash_tool/"]
+                ],
+                "icon": "icon-brush_fill" // 配置图标，参考文档：定制化/字体图标库
+            }
+        },
+        essayTopAnimationRendered: false, //关闭首页banner动态
+        bgAnimationRendered: false,  //页面动态
+        //homeBannerTextType: "one", //一句话
+        reward: {
+            enable: true,
+            wechatpay: "https://img2020.cnblogs.com/blog/686418/202011/686418-20201114232706683-1057475691.jpg",
+            alipay: "https://img2020.cnblogs.com/blog/686418/202011/686418-20201114232656966-233715838.jpg"
+        },
+        weChatOfficialAccounts: "https://images2018.cnblogs.com/blog/686418/201808/686418-20180822091328437-1109977663.jpg",
+        advertising: true,
+        
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@v1.3.3/src/script/simpleMemory.min.js" defer></script>
+```

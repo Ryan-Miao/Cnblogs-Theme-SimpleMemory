@@ -280,7 +280,7 @@ b {
 }
 
 #main {
-    margin-top: 30px
+    margin-top: 60vh
 }
 
 #main {
@@ -2708,7 +2708,7 @@ div#rightMenu > div {
     margin: 13px auto;
     padding: 0;
     font-family: -apple-system,BlinkMacSystemFont,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: .015em;
     font-feature-settings: "tnum";
     font-variant: tabular-nums;
@@ -4105,8 +4105,8 @@ table#blogCalendar>tbody>tr>td>a {
 
     .main-header {
         margin-bottom: 15px;
-        height: 40vh;
-        max-height: 40vh
+        height: 50vh;
+        max-height: 50vh
     }
 
     #home {

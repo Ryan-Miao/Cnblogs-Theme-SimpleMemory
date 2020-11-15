@@ -1279,14 +1279,14 @@ function Base() {
 
 
         $('.main-header').css({
-            'height': '40vh',
+            'height': '50vh',
             'background': '#222 url("'+encodeURI(bgImg)+'")  center center no-repeat',
             'background-size': 'cover'
         });
 
         $('#homeTopTitle').hide();
         $('.scroll-down').hide();
-        $('#home').css('margin-top', '40vh');
+        $('#home').css('margin-top', '50vh');
         $('#cb_post_title_url').addClass('post-del-title');
 
         if (window.cnblogsConfig.essayTopAnimationRendered) {
